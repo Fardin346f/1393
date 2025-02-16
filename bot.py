@@ -7,7 +7,7 @@ from telethon.errors import FloodWaitError  # برای مدیریت FloodWait
 api_id = 26665370   # API ID خود را وارد کنید
 api_hash = '19323431934da1ab20b8f3247c3bdc96'  # API Hash خود را وارد کنید
 
-client = TelegramClient('my_session1122800', api_id, api_hash)
+client = TelegramClient('my_session11228001', api_id, api_hash)
 
 # صف پیام‌های گروهی با حداکثر 50 پیام (تسک)
 group_message_queue = asyncio.Queue(maxsize=50)
